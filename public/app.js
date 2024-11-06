@@ -4,7 +4,7 @@
 const username = prompt("Enter your username:");
 
 // Establish WebSocket connection
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('wss://puzzling-wistful-paw.glitch.me');
 
 // Join message sent to the server
 ws.onopen = () => {
